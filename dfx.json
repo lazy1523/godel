@@ -1,19 +1,19 @@
 {
   "canisters": {
-    "dfinity_reactJs_reactRouter_babel": {
-      "main": "src/dfinity_reactJs_reactRouter_babel/main.mo",
+    "godel": {
+      "main": "src/godel/main.mo",
       "type": "motoko"
     },
-    "dfinity_reactJs_reactRouter_babel_assets": {
+    "godel_assets": {
       "dependencies": [
-        "dfinity_reactJs_reactRouter_babel"
+        "godel"
       ],
       "frontend": {
-        "entrypoint": "src/dfinity_reactJs_reactRouter_babel_assets/src/index.html"
+        "entrypoint": "src/godel_assets/src/index.html"
       },
       "source": [
-        "src/dfinity_reactJs_reactRouter_babel_assets/assets",
-        "dist/dfinity_reactJs_reactRouter_babel_assets/"
+        "src/godel_assets/assets",
+        "dist/godel_assets/"
       ],
       "type": "assets"
     }

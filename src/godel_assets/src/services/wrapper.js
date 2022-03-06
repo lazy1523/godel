@@ -1,4 +1,4 @@
-import { dfinity_reactJs_reactRouter_babel as app } from "../../../declarations/dfinity_reactJs_reactRouter_babel";
+import { godel as app } from "../../../declarations/godel";
 
 export async function greet(name) {
     console.debug(name);
@@ -11,3 +11,4 @@ export async function greet(name) {
         return "Error: Not a Dfinity greeting: " + name;
     }  
 };
+
