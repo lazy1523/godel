@@ -1,5 +1,13 @@
 import Array "mo:base/Array";
 import Int "mo:base/Int";
+import List "mo:base/List";
+import Iter "mo:base/Iter";
+import Float "mo:base/Float";
+import Debug "mo:base/Debug";
+import Nat8 "mo:base/Nat8";
+import Nat16 "mo:base/Nat16";
+import Text "mo:base/Text";
+import Nat "mo:base/Nat";
 
 actor {
 
